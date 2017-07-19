@@ -1,0 +1,28 @@
+{
+  "name": "Stock-Management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aluta97/StockManagement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aluta97/StockManagement/issues"
+  },
+  "homepage": "https://github.com/Aluta97/StockManagement#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.15.3",
+    "handlebars": "^4.0.10",
+    "mysql": "^2.13.0"
+  }
+}

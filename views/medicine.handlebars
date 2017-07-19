@@ -1,0 +1,18 @@
+<h2>vaccines</h2>
+
+<div class="container">
+  <table id="medicineSearch" class="table table-bordered">
+    <thead>
+      <th>Name</th>
+      <th>Strength</th>
+    </thead>
+    <tbody>
+      {{#medicine}}
+        <tr>
+          <td>{{name}}</td>
+          <td>{{strength}}</td>
+        </tr>
+      {{/medicine}}
+    </tbody>
+  </table>
+</div>

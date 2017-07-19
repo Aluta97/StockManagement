@@ -1,0 +1,20 @@
+<h2>clinic Stock</h2>
+
+<div class="container">
+  <table id="clinicStockSearch" class="table table-bordered">
+    <thead>
+      <th>Quantity</th>
+      <th>Clinic_id</th>
+      <th>med_id</th>
+    </thead>
+    <tbody>
+      {{#clinic_stock}}
+        <tr>
+          <td>{{quantity}}</td>
+          <td>{{clinic_id}}</td>
+          <td>{{med_id}}</td>
+        </tr>
+      {{/clinic_stock}}
+    </tbody>
+  </table>
+</div>

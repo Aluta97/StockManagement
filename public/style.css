@@ -1,0 +1,9 @@
+body{
+  color: white;
+}
+
+table {
+  border-spacing: 30px;
+  background-color: blue;
+  text-align: center;
+}
